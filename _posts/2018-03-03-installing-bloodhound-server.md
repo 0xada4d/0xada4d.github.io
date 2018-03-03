@@ -101,7 +101,14 @@ As mentioned before, Bloodhound requires a Neo4j graph database to function; I r
       - `dbms.active_databases=test.graphdb` 
       - Uncomment the line
       - `test.graphdb` should match the folder that you just created
-    - You can now save and close this file 
+    - You can now save and close this file  
+<br>
+11. **Restart the Neo4j Container**
+   
+    We now need to restart the Neo4j container, pointing it to our edited configuration file. In the Docker Quickstart Terminal run:
+    - `docker run --publish=7474:7474 --publish=7687:7687 --volume=$HOME/neo4j/data:/data --volume=$HOME/neo4j/conf:/conf neo4j`
+    - Minimize this terminal and repeat **step 7** to access the Bloodhound GUI
+    - You are now ready to import and view your client data
 
 
 
