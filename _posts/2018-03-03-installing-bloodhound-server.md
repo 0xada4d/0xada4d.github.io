@@ -19,6 +19,6 @@ BloodHound is developed by [@\_wald0](https://twitter.com/_wald0), [@CptJesus](h
 Bloodhound utilizes a [Neo4j](https://neo4j.com/) database to aggregate collected Domain information into an easy-to-understand, feature-rich graphical application. 
 
 <figure>
-![Image](/images/installbloodhound/gui.png)
-<figcaption>*GUI-View of Ingested Domain Information*</figcaption>
+	<img src="/images/installbloodhound/gui.png" alt="bloodhound-gui-view"/>
+	<figcaption>*GUI-View of Ingested Domain Information*</figcaption>
 </figure>
