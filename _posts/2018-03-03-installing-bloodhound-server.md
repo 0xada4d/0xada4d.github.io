@@ -45,7 +45,7 @@ As mentioned before, Bloodhound requires a Neo4j graph database to function; I r
    - To ensure a successful install, run `docker run hello-world`
    - You should see the following message: `Hello from Docker!`  
  
- 
+<&nbsp;>
 3. **Pull Neo4j Docker Image**
    
    We will pull this image from the Docker store. In the Quickstart Terminal run:  
