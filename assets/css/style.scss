@@ -1,0 +1,45 @@
+---
+---
+
+@import 'jekyll-theme-leap-day';
+
+
+header {
+	text-align: right;
+}
+
+header h1 {
+	margin-right: 2em;
+}
+
+header p {
+	margin-right: 3em;
+}
+
+#banner {
+	top: 120px;
+}
+a {
+	color:#008b8b;
+}
+
+nav {
+	left:0%;
+	margin-left:10em;
+}
+
+.wrapper {
+	width:73em;
+}
+
+section {
+	width:80%;
+}
+
+#sbar {
+	position:relative;
+	top:12em;
+	left:13em;
+	text-decoration:none;
+}
+

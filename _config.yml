@@ -1,0 +1,11 @@
+theme: jekyll-theme-leap-day
+title: ha1lthescr1pt
+description: Check out my work, let me know what you think.
+show_downloads: true
+
+baseurl:
+
+sidebar:
+  twitter: true
+  recent: true
+  tags: true

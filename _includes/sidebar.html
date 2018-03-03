@@ -1,0 +1,30 @@
+{% if site.sidebar.recent %}
+<div id="recent">
+  <h2>Recent Posts</h2>
+  <ul>
+    {% for post in site.posts limit:5 %}
+    <li><a href="{{ site.baseurl }}{{ post.url }}">[{{ post.tag }}] {{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+{% if site.sidebar.tags %}
+<div class="category">
+  <h2>Categories</h2>
+  <ul class="sideBarTags">
+    {% assign tags = (site.tags | sort:0) %}
+    {% for tag in tags %}
+    <li>
+      <a href="{{ site.baseurl}}/tag/{{ tag[0] }}" data-toggle="tooltip" data-placement="right" title="{{ tag[1].size }}">
+        <span>{{tag[0] }}</span></a></li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+{% if site.sidebar.twitter %}
+<div class="sidebar button">
+    <a href="https://twitter.com/ha1lthescr1pt" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @ha1lthescr1pt</a><script async="async" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+{% endif %}
