@@ -20,5 +20,5 @@ Bloodhound utilizes a [Neo4j](https://neo4j.com/) database to aggregate collecte
 
 <figure>
 	<img src="/images/installbloodhound/gui.png" alt="bloodhound-gui-view"/>
-	<figcaption>*GUI-View of Ingested Domain Information*</figcaption>
+	<figcaption>GUI-View of Ingested Domain Information</figcaption>
 </figure>
