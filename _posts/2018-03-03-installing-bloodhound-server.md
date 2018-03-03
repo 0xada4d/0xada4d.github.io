@@ -93,7 +93,7 @@ As mentioned before, Bloodhound requires a Neo4j graph database to function; I r
 <br>
 10. **Create a New Graph Database**
 
-   Running the Neo4j container
+    Running the Neo4j container
 
 
 
