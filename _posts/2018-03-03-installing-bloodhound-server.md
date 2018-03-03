@@ -86,13 +86,13 @@ As mentioned before, Bloodhound requires a Neo4j graph database to function; I r
    - `docker kill <id>`  
 <br>
 9. **Dump Neo4j Database Configuration**
-   
+
    In the Docker Quickstart Terminal run:
    - `docker run --volume=$HOME/neo4j/conf:/conf neo4j dump-config`
    - This outputs a configuration file that you will be able to edit  
 <br>
 10. **Create a New Graph Database**
-   
+
    Running the Neo4j container in **step 4** created a folder on your C: drive. Access this folder
    - Browse to `neo4j\data\databases`
    - Create a new folder with the desired name of your database (i.e `test.graphdb`)
