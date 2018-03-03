@@ -101,7 +101,7 @@ As mentioned before, Bloodhound requires a Neo4j graph database to function; I r
      - `dbms.active_databases=test.graphdb` 
      - Uncomment the line
      - `test.graphdb` should match the folder that you just created
-   - You can now save and close this file   
+   - You can now save and close this file  
 <br>
 11. **Restart the Neo4j Container**
    
