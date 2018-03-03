@@ -75,9 +75,17 @@ As mentioned before, Bloodhound requires a Neo4j graph database to function; I r
    - Login with:
      - URL: `bolt://192.168.99.100:7687`
      - Username: `neo4j`
-     - Password: `Password from Step 5`  
+     - Password: `Password from Step 5`
+   - You should now be logged into the Neo4j database via the Bloodhound GUI. A blank canvas means things are working correctly.  
 <br>
-8.
+8. **Exit the Application and kill Neo4j instance**
+   
+   In the Docker Quickstart Terminal run:
+   - `docker container ls`
+   - Find the ID of your neo4j container, then
+   - `docker kill <id>`  
+<br>
+9. 
    
 
 
