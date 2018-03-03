@@ -20,5 +20,23 @@ Bloodhound utilizes a [Neo4j](https://neo4j.com/) database to aggregate collecte
 
 <figure>
 	<img src="/images/installbloodhound/gui.png" alt="bloodhound-gui-view"/>
-	<figcaption>GUI-View of Ingested Domain Information</figcaption>
+	<figcaption>GUI-View of Domain Information</figcaption>
 </figure>
+
+Bloodhound allows the user to query the ingested data with questions such as:
+- Is the current user a member of any nested group that grants greater privileges?
+- From the current user what are all the paths to Domain Admin?
+- Where are Domain Admins currently logged in?
+
+# Installing the Bloodhound Server
+
+___
+
+As mentioned before, Bloodhound requires a Neo4j graph database to function; I run my Neo4j instance from a docker container, so this tutorial assumes you will do the same. I will also be using *Docker Toolbox* instead of *Docker Community Edition for Windows*, as I prefer to use Virtualbox over Hyper-V.
+
+1. **Download Docker Toolbox for Windows**
+
+   Download Link: https://download.docker.com/win/stable/DockerToolbox.exe
+   Leave the defaults checked in the install wizard including Virtualbox if you do not already have it.
+
+2. 
