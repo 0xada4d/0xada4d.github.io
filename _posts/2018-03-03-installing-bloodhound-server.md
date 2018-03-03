@@ -55,14 +55,14 @@ As mentioned before, Bloodhound requires a Neo4j graph database to function; I r
    In the Quickstart Terminal run:  
    - `docker run --publish=7474:7474 --publish=7687:7687 --volume=$HOME/neo4j/data:/data neo4j`
    - If this command returns with errors, check that your $HOME variable does not contain spaces. If it does, you will need to provide the absolute path to this command, with the offending bit enclosed in quotes  
-   (i.e "Program Files"/.../neo4j/data)
-
+   (i.e "Program Files"/.../neo4j/data)  
+<br>
 5. **Change Graph Server Default Password**
 
    Access the graph server in a browser using the IP from above  
    - `http://192.168.99.100:7474`
-   - Login with `neo4j:neo4j` and it will prompt you to change the password
-
+   - Login with `neo4j:neo4j` and it will prompt you to change the password  
+<br>
 6. **Download Bloodhound Release**
 
    Download Link: [BH Release](https://github.com/BloodHoundAD/BloodHound/releases)  
@@ -75,8 +75,8 @@ As mentioned before, Bloodhound requires a Neo4j graph database to function; I r
    - Login with:
      - URL: `bolt://192.168.99.100:7687`
      - Username: `neo4j`
-     - Password: `Password from Step 5`
-
+     - Password: `Password from Step 5`  
+<br>
 8.
    
 
