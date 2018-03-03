@@ -44,29 +44,30 @@ As mentioned before, Bloodhound requires a Neo4j graph database to function; I r
    This was installed via the install wizard. Launching this program will open a MinGW Terminal and begin setting up Docker. When it is finished, you should see a message similar to: `docker is configured to use the default machine with IP 192.168.99.100`. Keep note of this IP, as this is how you will access your Docker containers.  
    - To ensure a successful install, run `docker run hello-world`
    - You should see the following message: `Hello from Docker!`  
-
+ 
 3. **Pull Neo4j Docker Image**
    
    We will pull this image from the Docker store. In the Quickstart Terminal run:  
    - `docker pull neo4j`
-
+ 
 4. **Start the Neo4j graph server**
    
    In the Quickstart Terminal run:  
    - `docker run --publish=7474:7474 --publish=7687:7687 --volume=$HOME/neo4j/data:/data neo4j`
-   - If this command returns with errors, check that your $HOME variable does not contain spaces. If it does, you will need to provide the absolute path to this command, with the offending bit enclosed in quotes (i.e "Program Files"/.../neo4j/data)
-
+   - If this command returns with errors, check that your $HOME variable does not contain spaces. If it does, you will need to provide the absolute path to this command, with the offending bit enclosed in quotes  
+   (i.e "Program Files"/.../neo4j/data)
+ 
 5. **Change Graph Server Default Password**
 
    Access the graph server in a browser using the IP from above  
    - `http://192.168.99.100:7474`
    - Login with `neo4j:neo4j` and it will prompt you to change the password
-
+ 
 6. **Download Bloodhound Release**
 
    Download Link: [BH Release](https://github.com/BloodHoundAD/BloodHound/releases)  
    Extract the zip file to a directory of your choosing. (I will assume C:\Users\Test for ease of explanation)
-
+ 
 7. **Start the Bloodhound GUI**
 
    Run the application located at:  
@@ -75,7 +76,7 @@ As mentioned before, Bloodhound requires a Neo4j graph database to function; I r
      - URL: `bolt://192.168.99.100:7687`
      - Username: `neo4j`
      - Password: `Password from Step 5`
-
+ 
 8.
    
 
