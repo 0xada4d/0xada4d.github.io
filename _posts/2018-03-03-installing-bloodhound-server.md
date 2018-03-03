@@ -44,7 +44,7 @@ As mentioned before, Bloodhound requires a Neo4j graph database to function; I r
    This was installed via the install wizard. Launching this program will open a MinGW Terminal and begin setting up Docker. When it is finished, you should see a message similar to: `docker is configured to use the default machine with IP 192.168.99.100`. Keep note of this IP, as this is how you will access your Docker containers.  
    - To ensure a successful install, run `docker run hello-world`
    - You should see the following message: `Hello from Docker!`  
-   &nbsp;
+   
    Next we need to pull the Neo4j Docker image from the Docker store. Within the same terminal run:  
    - `docker pull neo4j`
    - You can now exit the Docker Quickstart Terminal
