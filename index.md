@@ -13,9 +13,11 @@ IOLI CrackMe Walkthrough | Simple Reverse Engineering with [radare2](https://rad
 [CrackMe0x04](/2018/02/25/crackme0x04) | Follow execution as user input is converted between ASCII and integers.
 [CrackMe0x05](/2018/03/02/crackme0x05) | Crack the password by meeting two specified conditions.
 
+\\\\\
+
 **I appreciate detailed walkthroughs, so I will attempt to do the same here**
 
 
-How To | Install, Setup, and Configure All the Things
+How-To | Install, Setup, and Configure All the Things
 ------ | ------
 [Bloodhound Server](/2018/03/03/installing-bloodhound-server) | Understand Active Directory Domain Relationships.
