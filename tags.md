@@ -1,5 +1,6 @@
 <div class="category">
   <h2>Categories</h2>
+  <hr>
   <ul class="sideBarTags">
     {% assign tags = (site.tags | sort:0) %}
     {% for tag in tags %}
