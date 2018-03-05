@@ -1,5 +1,6 @@
 <div class="archive">
 	<h2> Archives </h2>
+___
 	{% assign postGrouping = site.posts | group_by_exp:"post", "post.date | date: '%B %Y'" %}
 {% for postGroup in postGrouping %}
 	<h5>{{ postGroup.name }}</h5>
