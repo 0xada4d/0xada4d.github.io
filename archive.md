@@ -8,5 +8,5 @@
 			<li><a href="{{ post.url }}">{{ post.title }}</a></li>
 			{% endfor %}
 		</ul>
-{% enfor %}
+{% endfor %}
 </div>
