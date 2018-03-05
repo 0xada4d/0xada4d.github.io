@@ -1,14 +1,11 @@
 <div class="archive">
-	{% for post in site.posts %}
-		{% assign currentDate = post.date | date: "%B %Y" %}
-		{% if currentDate != myDate %}
-           {% unless forloop.first %}</ul>{% endunless %}
-           <h2>{{ currentDate }}</h2>
-           <ul>
-           {% assign myDate = currentDate %}
-       {% endif %}
-       <li><a href="{{ post.url }}"><span>{{ post.title }}</a></li>
-       {% if forloop.last %}</ul>{% endif %}
-   {% endfor %}
-
+	<h2> Archives </h2>
+	{% assign postGrouping = site.posts | group_by_exp:"post", "post.date | date '%B %Y'" %}
+{% for postGroup in PostGrouping %}
+	<h3>{{ postGroup.name }}</h3>
+		<ul>
+			{% for post in postGroup.items %}
+			<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+			{% endfor %}
+		</ul>
 </div>
