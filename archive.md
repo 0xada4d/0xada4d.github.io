@@ -11,4 +11,4 @@
        {% if forloop.last %}</ul>{% endif %}
    {% endfor %}
 
-</section>
+</div>
