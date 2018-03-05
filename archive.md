@@ -6,7 +6,7 @@ ___
 	<h5>{{ postGroup.name }}</h5>
 		<ul>
 			{% for post in postGroup.items %}
-			<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+			<li><a href="{{ post.url }}">[{{ post.tag }}] {{ post.title }}</a></li>
 			{% endfor %}
 		</ul>
 {% endfor %}
