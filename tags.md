@@ -1,6 +1,6 @@
+# Categories
+___
 <div class="category">
-  <h1>Categories</h1>
-  <hr>
   <ul class="sideBarTags">
     {% assign tags = (site.tags | sort:0) %}
     {% for tag in tags %}
