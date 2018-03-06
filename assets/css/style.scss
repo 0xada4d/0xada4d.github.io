@@ -61,6 +61,17 @@ figcaption {
 @media print, screen and (max-width: 720px) {
 	#banner {
 		display: block;
+		top: 80px;
+	}
+
+	section {
+		top:50px;
+	}
+}
+
+@media print, screen and (max-width: 480px) {
+	#banner {
+		display: block;
 		top: 50px;
 	}
 
