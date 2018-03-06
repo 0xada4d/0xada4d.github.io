@@ -4,7 +4,7 @@
 
 # PROJECTS
 ___
-**I wanted to get comfortable reading assembly code, so I started with the [IOLI CrackMe](https://github.com/Maijin/Workshop2015/tree/master/IOLI-crackme) exercises.**
+**I started with the [IOLI CrackMe](https://github.com/Maijin/Workshop2015/tree/master/IOLI-crackme) exercises to get more comfortable reading assembly code.**
 
 
 IOLI CrackMe Walkthrough | Simple Reverse Engineering with [radare2](https://rada.re/r/) and [Cutter](https://github.com/radareorg/cutter)
@@ -15,7 +15,7 @@ IOLI CrackMe Walkthrough | Simple Reverse Engineering with [radare2](https://rad
 
 \\\\\\\\\\
 
-**I appreciate detailed walkthroughs, so I will attempt to do the same here.**
+**I appreciate detailed walkthroughs.**
 
 
 How-To | Install, Setup, and Configure All the Things
