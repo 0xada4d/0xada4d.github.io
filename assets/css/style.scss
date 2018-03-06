@@ -60,7 +60,7 @@ figcaption {
 
 @media print, screen and (max-width: 720px) {
 	
-	#logo {
+	#banner #logo {
 		display: none;
 	}
 
@@ -76,7 +76,7 @@ figcaption {
 
 @media print, screen and (max-width: 480px) {
 	
-	#logo {
+	#banner #logo {
 		display:none;
 	}
 
