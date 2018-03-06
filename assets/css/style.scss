@@ -58,3 +58,13 @@ figcaption {
 	font-style: italic;
 }
 
+@media print, screen and (max-width: 480px) {
+	#banner {
+		display: block;
+		top: 50px;
+	}
+
+	section {
+		top:50px;
+	}
+}
