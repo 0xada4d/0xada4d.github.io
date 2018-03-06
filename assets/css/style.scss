@@ -2,7 +2,12 @@
 ---
 
 @import 'jekyll-theme-leap-day';
-
+ 
+@media only screen and (max-width: 1500px) {
+	header {
+		background: url("/assets/images/background-resp.png");
+	}
+}
 
 header {
 	text-align: right;
