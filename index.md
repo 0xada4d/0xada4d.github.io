@@ -15,7 +15,7 @@ IOLI CrackMe Walkthrough | Simple Reverse Engineering with [radare2](https://rad
 
 \\\\\\\\\\
 
-**I appreciate detailed walkthroughs, so I will attempt to do the same here.**
+**I appreciate detailed walkthroughs.**
 
 
 How-To | Install, Setup, and Configure All the Things
