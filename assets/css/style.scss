@@ -59,6 +59,11 @@ figcaption {
 }
 
 @media print, screen and (max-width: 720px) {
+	
+	#logo {
+		display: none;
+	}
+
 	#banner {
 		display: block;
 		top: 80px;
@@ -70,6 +75,11 @@ figcaption {
 }
 
 @media print, screen and (max-width: 480px) {
+	
+	#logo {
+		display:none;
+	}
+
 	#banner {
 		display: block;
 		top: 50px;
