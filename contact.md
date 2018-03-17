@@ -13,6 +13,3 @@ i'm on the journey from knowing nothing to knowing a little, and would love to h
 
 `YWRhbUAweGFkYW0uY29tCg==`
 
-<input id="b64" name="b64" placeholder="Enter encoded string" type="text">
-<button id="b64submit" class="btn">Decode</button>
-<span id="b64output"></span>
