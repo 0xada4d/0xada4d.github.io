@@ -6,6 +6,7 @@ show_downloads: true
 baseurl:
 
 sidebar:
+  github: true
   twitter: true
   recent: true
   tags: true
