@@ -22,7 +22,7 @@ submitButton.click(function(){
 $('#testop').text(getval);  
 });
 </script>
-<input id="probleminput" class="form-inline" type="text" style="display: inline;"></input>
+<input id="probleminput" class="form-inline" type="text" style="display: inline;">
 <button id="problemsubmit" class="btn" style="display: inline-block;">Submit</button>
 
 <a id='testop' ></a>
