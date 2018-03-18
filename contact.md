@@ -13,11 +13,12 @@ i'm on the journey from knowing nothing to knowing a little, and would love to h
 
 `YWRhbUAweGFkYW0uY29tCg==`
 
-<script type="text/javascript">
+<script>
 var form = $("#problemform");
 var inputBox = $("#probleminput");
 var submitButton = $("#problemsubmit");
 submitButton.click(function(){
+	console.log("clicked");
     var getval = ($("#probleminput").val()?$("#probleminput").val():alert('please fill the text field'))
 $('#testop').text(getval);  
 });
