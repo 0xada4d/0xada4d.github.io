@@ -13,18 +13,3 @@ i'm on the journey from knowing nothing to knowing a little, and would love to h
 
 `YWRhbUAweGFkYW0uY29tCg==`
 
-<script>
-var form = $("#problemform");
-var inputBox = $("#probleminput");
-var submitButton = $("#problemsubmit");
-submitButton.click(function(){
-	console.log("clicked");
-    var getval = ($("#probleminput").val()?$("#probleminput").val():alert('please fill the text field'))
-$('#testop').text(getval);  
-});
-</script>
-<input id="probleminput" class="form-inline" type="text" style="display: inline;">
-<button id="problemsubmit" class="btn" style="display: inline-block;">Submit</button>
-
-<a id='testop' ></a>
-
