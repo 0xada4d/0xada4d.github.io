@@ -14,6 +14,7 @@ IOLI CrackMe Walkthrough | Simple Reverse Engineering with [radare2](https://rad
 [CrackMe0x05](/2018/03/02/crackme0x05) | Crack the password by meeting two specified conditions.
 [CrackMe0x06](/2018/03/09/crackme0x06) | Crack the password**s**.
 [CrackMe0x07](/2018/03/18/crackme0x07) | Follow subroutines, crack the password**s**.
+[CrackMe0x08](/2018/03/20/crackme0x08) | Follow subroutines, crack the password**s** (part 2).
 
 \\\\\\\\\\
 
