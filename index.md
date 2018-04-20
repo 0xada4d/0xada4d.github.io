@@ -4,8 +4,15 @@
 
 # PROJECTS
 ___
-**I started with the [IOLI CrackMe](https://github.com/Maijin/Workshop2015/tree/master/IOLI-crackme) exercises to get more comfortable reading assembly code.**
+**I am continuing my quest to get better at reverse engineering, this time with [Bomblab](http://www.cs.ucr.edu/~csong/cs165/17/lab1.html).**
 
+Bomblab Walkthrough | Crack the passwords or risk detonating the bomb
+----- | -----
+[Bomblab](/2018/04/19/bomblab) | Find the keys to pass five phases; don't detonate the bomb!
+
+\\\\\\\\\\
+
+**I started with the [IOLI CrackMe](https://github.com/Maijin/Workshop2015/tree/master/IOLI-crackme) exercises to get more comfortable reading assembly code.**
 
 IOLI CrackMe Walkthrough | Simple Reverse Engineering with [radare2](https://rada.re/r/) and [Cutter](https://github.com/radareorg/cutter)
 ----- | -----
